@@ -13,7 +13,7 @@ const Popular = () => {
 
       {/* Image Grid */}
       <div className="flex flex-col sm:flex-row justify-between gap-[16px] sm:gap-[24px] mt-[59px] mx-[20px] sm:mx-[70px] lg:mx-[70px]">
-        {/* Image 1 (Visible on large screens, hidden on tablet and mobile) */}
+        {/* Image 1 */}
         <div className="w-full sm:w-[630px] h-[375px] opacity-1 hidden md:block">
           <div className="w-[630px] h-[375px] opacity-1">
             <Image
@@ -25,11 +25,11 @@ const Popular = () => {
             />
           </div>
           {/* Image Details */}
-          <div className="w-[154px] h-[63px] gap-[8px] opacity-1">
-            <h4 className="text-[#2A254B] text-[20px] font-normal leading-[28px] mt-[25]">
+          <div className="w-[202px] h-[63px] gap-[8px] opacity-1 mt-[16px]">
+            <h4 className="text-[#2A254B] text-[19px] font-normal leading-[28px] mt-[16px]">
               The Popular suede sofa
             </h4>
-            <p className="text-[#2A254B] text-[18px] font-normal leading-[27px] mt-[15]">
+            <p className="text-[#2A254B] text-[18px] font-normal leading-[27px] mt-[8px]">
               £980
             </p>
           </div>
@@ -47,11 +47,11 @@ const Popular = () => {
             />
           </div>
           {/* Image Details */}
-          <div className="w-[154px] h-[63px] gap-[8px] opacity-1">
-            <h4 className="text-[#2A254B] text-[20px] font-normal leading-[28px] mt-[25]">
+          <div className="w-[154px] h-[63px] gap-[8px] opacity-1 mt-[16px]">
+            <h4 className="text-[#2A254B] text-[20px] font-normal leading-[28px] mt-[16px]">
               The Dandy Chair
             </h4>
-            <p className="text-[#2A254B] text-[18px] font-normal leading-[27px] mt-[15]">
+            <p className="text-[#2A254B] text-[18px] font-normal leading-[27px] mt-[8px]">
               £250
             </p>
           </div>
@@ -69,11 +69,11 @@ const Popular = () => {
             />
           </div>
           {/* Image Details */}
-          <div className="w-[154px] h-[63px] gap-[8px] opacity-1">
-            <h4 className="text-[#2A254B] text-[20px] font-normal leading-[28px] mt-[25]">
+          <div className="w-[154px] h-[63px] gap-[8px] opacity-1 mt-[16px]">
+            <h4 className="text-[#2A254B] text-[20px] font-normal leading-[28px] mt-[16px]">
               The Dandy Chair
             </h4>
-            <p className="text-[#2A254B] text-[18px] font-normal leading-[27px] mt-[15]">
+            <p className="text-[#2A254B] text-[18px] font-normal leading-[27px] mt-[8px]">
               £250
             </p>
           </div>
