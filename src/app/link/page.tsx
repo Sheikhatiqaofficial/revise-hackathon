@@ -79,9 +79,10 @@ const Collection = () => {
               </div>
             </div>
 
-            <button className="w-full md:w-[143px] h-[56px] bg-[#2A254B] text-white text-[16px] font-medium leading-[24px] opacity-1 mt-[20px] md:mt-0">
-              Add to Cart
-            </button>
+            <button className="w-full md:w-[143px] h-[56px] bg-[#2A254B] text-white text-[16px] font-medium leading-[24px] opacity-1 mt-[20px] md:mt-0 
+  hover:bg-[#F9F9F9] hover:text-[#2A254B] transform hover:scale-105 transition-all duration-300">
+  Add to Cart
+</button>
           </div>
         </div>
       </div>

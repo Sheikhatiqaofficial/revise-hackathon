@@ -25,11 +25,11 @@ const Promotion = () => {
         </div>
     
         {/* Button Section */}
-        <div className="w-full lg:w-auto h-[56px] mt-[20px] lg:mt-[54px] text-center">
-          <button className="w-full lg:w-[170px] h-[56px] p-[16px_32px] bg-[#F9F9F9] text-[#2A254B] text-lg font-medium leading-[24px]">
-            Get in touch
-          </button>
-        </div>
+        <div className="w-full sm:w-[170px] h-[56px] mt-[52px] mx-auto bg-[#F9F9F9] text-center opacity-1 sm:w-[100%] sm:h-[56px] lg:w-[170px] lg:mt-[60px]">
+  <button className="w-full sm:w-[100%] h-[56px] p-[16px 32px] text-[#2A254B] text-[16px] font-normal leading-[24px] bg-[#F9F9F9] hover:bg-[#2A254B] hover:text-white transition-colors duration-300">
+    View Collection
+  </button>
+</div>
       </div>
     
       {/* Right Side Image (Visible on small and large screens, hidden on tablets) */}

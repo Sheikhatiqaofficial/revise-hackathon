@@ -13,82 +13,82 @@ const Feature = () => {
 
       {/* Cards Row */}
       <div className="flex flex-col sm:flex-row gap-[24px] mt-[30px] mx-[20px] sm:mx-[70px] lg:gap-[120px] lg:mx-[70px]">
-        {/* Feature Card 1 */}
-        <div className="w-full sm:w-[270px] h-[124px]">
-          <div className="w-[24px] h-[24px] p-[4.5px 1.5px 3px 1.5px]">
-            <Image
-              src="/truck.jpg"
-              alt="Truck Icon"
-              width={21}
-              height={16.5}
-              className="opacity-1"
-            />
-          </div>
-          <h4 className="text-[#2A254B] text-[20px] font-normal mt-[15px]">
-            Next day as standard
-          </h4>
-          <p className="text-[#2A254B] text-[16px] font-normal mt-[12px]">
-            Order before 3pm and get your order the next day as standard
-          </p>
-        </div>
+  {/* Feature Card 1 */}
+  <div className="w-full sm:w-[270px] h-[124px] transform transition-transform hover:translate-y-[-10px]">
+    <div className="w-[24px] h-[24px] p-[4.5px 1.5px 3px 1.5px]">
+      <Image
+        src="/truck.jpg"
+        alt="Truck Icon"
+        width={21}
+        height={16.5}
+        className="opacity-1"
+      />
+    </div>
+    <h4 className="text-[#2A254B] text-[20px] font-normal mt-[15px]">
+      Next day as standard
+    </h4>
+    <p className="text-[#2A254B] text-[16px] font-normal mt-[12px]">
+      Order before 3pm and get your order the next day as standard
+    </p>
+  </div>
 
-        {/* Feature Card 2 */}
-        <div className="w-full sm:w-[266px] h-[124px]">
-          <div className="w-[24px] h-[24px] p-[1.5px]">
-            <Image
-              src="/check.jpg"
-              alt="Check Icon"
-              width={21}
-              height={21}
-              className="opacity-1"
-            />
-          </div>
-          <h4 className="text-[#2A254B] text-[20px] font-normal mt-[15px]">
-            Made by true artisans
-          </h4>
-          <p className="text-[#2A254B] text-[16px] font-normal mt-[12px]">
-            Handmade crafted goods made with real passion and craftsmanship
-          </p>
-        </div>
+  {/* Feature Card 2 */}
+  <div className="w-full sm:w-[266px] h-[124px] transform transition-transform hover:translate-y-[-10px]">
+    <div className="w-[24px] h-[24px] p-[1.5px]">
+      <Image
+        src="/check.jpg"
+        alt="Check Icon"
+        width={21}
+        height={21}
+        className="opacity-1"
+      />
+    </div>
+    <h4 className="text-[#2A254B] text-[20px] font-normal mt-[15px]">
+      Made by true artisans
+    </h4>
+    <p className="text-[#2A254B] text-[16px] font-normal mt-[12px]">
+      Handmade crafted goods made with real passion and craftsmanship
+    </p>
+  </div>
 
-        {/* Feature Card 3 */}
-        <div className="w-full sm:w-[235px] h-[124px]">
-          <div className="w-[24px] h-[24px] p-[4.5px 1.5px 4.5px 1.5px]">
-            <Image
-              src="/shop.jpg"
-              alt="Purchase Icon"
-              width={21}
-              height={15}
-              className="opacity-1"
-            />
-          </div>
-          <h4 className="text-[#2A254B] text-[20px] font-normal mt-[15px]">
-            Unbeatable prices
-          </h4>
-          <p className="text-[#2A254B] text-[16px] font-normal mt-[12px]">
-            For our materials and quality, you wont find better prices anywhere
-          </p>
-        </div>
+  {/* Feature Card 3 */}
+  <div className="w-full sm:w-[235px] h-[124px] transform transition-transform hover:translate-y-[-10px]">
+    <div className="w-[24px] h-[24px] p-[4.5px 1.5px 4.5px 1.5px]">
+      <Image
+        src="/shop.jpg"
+        alt="Purchase Icon"
+        width={21}
+        height={15}
+        className="opacity-1"
+      />
+    </div>
+    <h4 className="text-[#2A254B] text-[20px] font-normal mt-[15px]">
+      Unbeatable prices
+    </h4>
+    <p className="text-[#2A254B] text-[16px] font-normal mt-[12px]">
+      For our materials and quality, you wont find better prices anywhere
+    </p>
+  </div>
 
-        {/* Feature Card 4 */}
-        <div className="w-full sm:w-[265px] h-[124px]">
-          <div className="w-[24px] h-[24px] p-[1.5px 3px 1.08px 4.5px]">
-            <Image
-              src="/sprout.jpg"
-              alt="Sprout Icon"
-              width={16.5}
-              height={21.42}
-              className="opacity-1"
-            />
-          </div>
-          <h4 className="text-[#2A254B] text-[20px] font-normal mt-[15px]">
-            Recycled packaging
-          </h4>
-          <p className="text-[#2A254B] text-[16px] font-normal mt-[12px]">
-            We use 100% recycled packaging to ensure our footprint is manageable
-          </p>
-        </div>
-      </div>
+  {/* Feature Card 4 */}
+  <div className="w-full sm:w-[265px] h-[124px] transform transition-transform hover:translate-y-[-10px]">
+    <div className="w-[24px] h-[24px] p-[1.5px 3px 1.08px 4.5px]">
+      <Image
+        src="/sprout.jpg"
+        alt="Sprout Icon"
+        width={16.5}
+        height={21.42}
+        className="opacity-1"
+      />
+    </div>
+    <h4 className="text-[#2A254B] text-[20px] font-normal mt-[15px]">
+      Recycled packaging
+    </h4>
+    <p className="text-[#2A254B] text-[16px] font-normal mt-[12px]">
+      We use 100% recycled packaging to ensure our footprint is manageable
+    </p>
+  </div>
+</div>
     </div>
   );
 };

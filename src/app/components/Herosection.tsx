@@ -18,13 +18,20 @@ const Herosection = () => {
               </p>
 
               {/* Button (visible on both mobile and large screens, centered only on mobile) */}
-              <div className="flex justify-center md:justify-start mt-[30px] md:mt-[50px]">
+              {/* <div className="flex justify-center md:justify-start mt-[30px] md:mt-[50px]">
                 <Link href="/link">
                   <button className="bg-[#F9F9F926] text-white text-[16px] font-medium py-[18px] px-[20px] w-full md:w-[200px] h-[66px]">
                     View collection
                   </button>
                 </Link>
-              </div>
+              </div> */}
+                     <div className="flex justify-center md:justify-start mt-[30px] md:mt-[50px]">
+  <Link href="/link">
+    <button className="bg-[#F9F9F926] text-white text-[16px] font-medium py-[18px] px-[20px] w-full md:w-[200px] h-[66px] hover:bg-[#F9F9F950]">
+      View collection
+    </button>
+  </Link>
+</div>
             </div>
 
             {/* Bottom Para Section */}
