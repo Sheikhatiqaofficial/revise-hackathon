@@ -35,7 +35,7 @@ const Promotion = () => {
       {/* Right Side Image (Visible on small and large screens, hidden on tablets) */}
       <div className="w-full lg:w-[700px] h-auto opacity-1 mb-[50px] lg:mb-0 mt-[20px] lg:mt-0">
         <Image 
-          src="/image.jpg" 
+          src="/Image.jpg" 
           alt="Promotion Image" 
           className="w-full h-full object-cover"
           width={720} // Define width of the image
